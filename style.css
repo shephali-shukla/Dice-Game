@@ -1,25 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
-.body{
-    background-color: bisque;
+@import url("https://fonts.googleapis.com/css2?family=Turret+Road:wght@300;700&display=swap");
+body {
+  background-color: #9e7676;
+  font-family: "Turret Road", sans-serif;
+  color: aliceblue;
 }
-.container{
-    width: 100%;
-    text-align: center;
-}
-
-.dice{
-    text-align: center;
-    margin: 20px;
-    display: inline-block;
+.container {
+  margin: auto;
+  background-color: #553939;
+  width: 100vw;
+  text-align: center;
 }
 
-.h1{
-    font-family: 'Cabin Sketch', sans-serif;
-    font-weight: 700;
+.dice {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
 }
 
-.p{
-    font-size: 2rem;
-    font-family: 'Cabin Sketch', sans-serif;
-    font-weight: 400;
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+img {
+  width: 80%;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+footer {
+  margin-top: 15px;
+  text-align: center;
 }
